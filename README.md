@@ -48,7 +48,8 @@ public NewTopic topic() {
 * ## replicas   
   replication factor 수 (수가 늘어날 수록 데이터 안전성이 보장)
 
-* ## TopicConfig
+## TopicConfig
+
 * ### SEGMENT_BYTES_CONFIG = "segment.bytes";   
   기본값은 1GB. 세그먼트 파일이 지정된 크기에 도달하면 새로운 세그먼트 파일이 생성됨
 
